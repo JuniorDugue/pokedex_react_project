@@ -6,7 +6,9 @@ import "./styles.css";
 function App() {
   return (
     <div className="App">
-      <Pokecard />
+      <Pokecard id={7} name="Squirtle" type="water" exp={63} />
+      <Pokecard id={4} name="Charmander" type="fire" exp={62} />
+      
     </div>
   );
 }
